@@ -4,9 +4,9 @@ Repositório com exercícios de Java resolvidos durante o **Laboratório de Prog
 
 ## 📂 Organização
 
-Os exercícios estão separados por tema/tópico estudado, em ordem crescente de complexidade:
+Os exercícios abordaram seguintes tópicos:
 
-| Pasta | Conteúdo |
+| Matéria | Conteúdo |
 |---|---|
 | `01-fundamentos` | Entrada e saída de dados, revisão de estruturas básicas |
 | `02-classes-e-objetos` | Definição de classes, atributos, métodos e objetos |
