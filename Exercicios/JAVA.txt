@@ -1,0 +1,68 @@
+1- public class seuArquivo{
+	public static void main(String[] args){}
+   }
+
+2-PRINT:
+	System.out.print()	
+
+3-INPUT:
+	import java.utils.Scanner;
+	
+	Scanner sc = new Scanner(System.in);
+	String nome = sc.nextLine();
+
+4-ESTRUTURAS DE CONTROLE:
+	IF/ELSE IF/ ELSE-
+	if (...){
+	...}else if{
+	...}else{}
+	
+	WHILE-
+	while(){...}
+	
+	do{ #executa pelo menos uma vez antes de testar a condicao
+	...}while()
+
+	FOR-
+	for(i=0; i<10; i++){...} 
+	
+	OPERADORES LOGICOS-
+	and - &&
+	or - ||
+	not - !
+	igual - ==
+
+5-ARRAYS:
+	import java.util.ArrayList;
+
+	ArrayList<String> nomes = new ArrayList<>();
+	nomes.add("Léo");        // equivalente a nomes.append("Léo") em Python
+	nomes.add("Maria");
+	System.out.println(nomes.get(0));   // equivalente a nomes[0]
+	System.out.println(nomes.size());   // equivalente a len(nomes)
+	nomes.remove(0);                    // remove pelo índice
+
+6-FUNCOES:
+	public static int somar(int a, int b){
+		return a+b;
+	}			
+	soma = somar(3+4)
+7-CLASSES E OBJETOS:
+	public class Aluno{
+		//atributos
+		private String nome;
+		private int idade;
+		
+		//construtor(__init__)
+		public Aluno(String nome, int idade){
+			this.nome = nome;
+			this.idade= idade;
+		}
+		//método
+		public void exibir(){
+			System.out.println("Nome: " + nome + ", Idade: " + idade)
+		}
+
+	aluno a1 = aluno(...)
+	a1.exibir
+	
